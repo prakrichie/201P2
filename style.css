@@ -57,6 +57,8 @@ a:hover{
 	transition: 0.5s;
 }
 
+
+}
 body{
 	background-color: #ffffff;
     background-image: url("ha2.png");
@@ -65,7 +67,6 @@ body{
     background-position: right; 
 
 }
-
 
 div.a{
     text-align: center;
@@ -130,6 +131,7 @@ h2{
 
 .center{
 	text-align: center;
+
 }
 
 .right{
@@ -147,6 +149,32 @@ h2{
    padding: 50px 230px;
    font-weight: bold;
 
+}
 
 
+.chill{
+height: auto;
+width: 320px;
+
+}
+
+div.r{
+	color: red;
+	font-family: monospace;
+
+}
+
+.fish{
+     text-align: center;
+     font-family: monospace;
+	color: red;
+	font-weight: bold;
+}
+div.bg {
+    text-align: center;
+    background-color: #602220;
+    padding: 20px 15px;
+    width: 300px;
+    margin-right: auto;
+    margin-left: 21%;
 }
