@@ -178,3 +178,8 @@ div.bg {
     margin-right: auto;
     margin-left: 21%;
 }
+ul.ay{
+    list-style-type: circle;
+    font-family: monospace;
+    text-align: center;
+}
