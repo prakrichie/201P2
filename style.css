@@ -1,3 +1,28 @@
+
+#slider {
+    width: 720px;
+    height: 400px;
+    overflow: hidden;
+    padding-top: 5px;
+}
+
+#slider .slides {
+    display: block;
+    width: 6000px;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+}
+
+#slider .slide {
+    float: left;
+    list-style-type: none;
+    width: 720px;
+    height: 400px;
+}
+
+
+
 body,html{
 	margin: 0;
 	padding: 0;
@@ -37,13 +62,22 @@ span{
 
 }
 ul{
+	
+}
+
+ul.wat{
 	width: auto;
 	float:right;
-	margin-top:8px;
+	margin-top:25px;
+	margin-right:30px;
 }
+
 li{
-	display: inline-block;
-	padding: 15px 30px;
+	
+}
+
+li.mm{
+
 }
 
 a{
@@ -58,7 +92,7 @@ a:hover{
 }
 
 
-}
+
 body{
 	background-color: #ffffff;
     background-image: url("ha2.png");
@@ -90,6 +124,14 @@ h2{
 	font-size: 10px;
 	margin-left: -90px;
 }
+
+h4{
+  font-family: monospace;
+  font-size:50px;
+  color: white;
+}
+
+
 
 
 .box {
@@ -140,7 +182,11 @@ h2{
 	padding: 50px 50px;
 }
 	
+.left{
+	position: absolute;
+	left: 400px;
 
+}
 
 .p2{
    font-family:monospace;
@@ -184,3 +230,36 @@ ul.ay{
     font-family: monospace;
     text-align: center;
 }
+body.i { overflow: hidden }
+#tnf { position: random; left: -500px }
+
+*.a {
+    box-sizing: border-box;
+}
+
+.column {
+
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.envelope{
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: #fff;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 60px;
+}
+
