@@ -239,9 +239,10 @@ body.i { overflow: hidden }
 
 .column {
 
-    float: left;
-    width: 33.33%;
+    float: center;
+    width: 100%;
     padding: 5px;
+
 }
 
 /* Clearfix (clear floats) */
@@ -251,15 +252,42 @@ body.i { overflow: hidden }
     display: table;
 }
 
-.envelope{
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-  background-color: #fff;
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  text-align: center;
-  line-height: 60px;
+.pic-container {
+    width: 50px;
+    height: 200px;
+    overflow-x: scroll;
 }
 
+
+.vert{
+
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ line-height: 80px;
+ text-align: center;
+ 
+ -moz-transform:translateY(-100%);
+ -webkit-transform:translateY(-100%); 
+ transform:translateY(-100%);
+ 
+ -moz-animation: vert3 15s linear infinite;
+ -webkit-animation: vert3 15s linear infinite;
+ animation: vert3 15s linear infinite;
+}
+
+@-moz-keyframes vert3 {
+ 0%   { -moz-transform: translateY(-100%); }
+ 100% { -moz-transform: translateY(100%); }
+}
+@-webkit-keyframes vert3 {
+ 0%   { -webkit-transform: translateY(-100%); }
+ 100% { -webkit-transform: translateY(100%); }
+}
+
+}
+
+
+
+}
